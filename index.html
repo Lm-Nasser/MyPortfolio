@@ -602,7 +602,7 @@
         <p>Clean code, smooth UX, and websites that actually impress. I turn your ideas into digital experiences people love. Got an idea? Let’s make it happen.</p>
         <div class="cta-buttons">
           <a href="#contact" class="cta-button">Get in touch</a>
-          <a href="about" class="cta-button">More About me</a>
+          <a href="about.html" class="cta-button">More About me</a>
         </div>
       </div>
     </section>
@@ -682,7 +682,7 @@
       <div class="projects-grid">
         <div class="project">
           <div class="project-image">
-            <img src="/22b7e8f0-b93a-4f3b-aad1-a8cb64cff6dd.png" alt="" srcset="">
+            <img src="/public/22b7e8f0-b93a-4f3b-aad1-a8cb64cff6dd.png" alt="" srcset="">
           </div>
           <div class="project-content">
             <h3 class="project-title">ClientFlow</h3>
@@ -705,7 +705,7 @@
         </div>
         <div class="project">
           <div class="project-image">
-            <img src="/37fac7c6-e3b7-4098-be6e-e019182ed173.png" alt="" srcset="">
+            <img src="/public/37fac7c6-e3b7-4098-be6e-e019182ed173.png" alt="" srcset="">
           </div>
           <div class="project-content">
             <h3 class="project-title">Luxury Travels</h3>
@@ -727,7 +727,7 @@
         </div>
         <div class="project">
           <div class="project-image">
-            <img src="/d1b5e985-1dbd-482d-b2bb-ab3779574a43.png" alt="" srcset="">
+            <img src="/public/d1b5e985-1dbd-482d-b2bb-ab3779574a43.png" alt="" srcset="">
           </div>
           <div class="project-content">
             <h3 class="project-title">Invoice Generator</h3>
@@ -749,35 +749,33 @@
     </section>
     
     <!-- Contact section -->
-    <section id="contact" class="contact fade-in">
+    <section id="contact" class="contact fade-in"
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 70vh;">
       <h2 class="section-title">Get In Touch</h2>
-      <form class="contact-form">
-        <div class="form-group">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" id="name" class="form-input" required>
+      <div class="contact-cta-container" style="max-width: 600px; margin: 0 auto; text-align: center;">
+        <p style="margin-bottom: 2rem; color: var(--secondary);">I'm always open to discussing new projects, creative ideas
+          or opportunities to be part of your vision.</p>
+    
+        <div class="cta-buttons" style="justify-content: center;">
+          <a href="https://www.linkedin.com/in/nasser-lamamar/" target="_blank" class="cta-button">
+            <i class="fab fa-linkedin" style="margin-right: 8px;"></i> LinkedIn
+          </a>
+          <a href="mailto:lamamarnasser1@gmail.com" class="cta-button">
+            <i class="fa-solid fa-envelope" style="margin-right: 8px;"></i> lamamarnasser1@gmail.com
+          </a>
         </div>
-        <div class="form-group">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" id="email" class="form-input" required>
-        </div>
-        <div class="form-group">
-          <label for="message" class="form-label">Message</label>
-          <textarea id="message" class="form-input" rows="5" required></textarea>
-        </div>
-        <div id="statusMessage" style="display: none; margin-top: 1rem; margin-bottom: 1rem; padding: 0.75rem 1rem; border-radius: 0.5rem; font-size: 0.9rem; border: 1px solid transparent;"></div>
-        <button type="submit" class="form-submit">Send Message</button>
-      </form>
+      </div>
     </section>
   </div>
   
   <!-- Footer -->
   <footer>
     <div class="social-links">
-      <a href="<%= github %>" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
-      <a href="<%= linkedin %>" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
-      <a href="<%= twitter %>" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
-      <a href="<%= email %>" target="_blank" class="social-link"><i class="fa-solid fa-envelope"></i></a>
-      <a href="<%= whatsapp %>" target="_blank" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://github.com/Lm-Nasser" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/nasser-lamamar/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/Its_me_F4LCON" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+      <a href="mailto:lamamarnasser1@gmail.com" target="_blank" class="social-link"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://wa.me/212605109413" target="_blank" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
       
     </div>
     <p>&copy; 2025 Nasser Lamamar. All rights reserved.</p>
